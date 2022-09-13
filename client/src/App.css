@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  width: 100%;
+  margin:auto;
+ /* border:2px solid red;*/
+  box-sizing: border-box;
+}
+.container header buttonlist{
+  float: right;
+}
+.container header {
+  width: 100%;
+  height: 30px;
+  background: #faa;
+}
+.container .content {
+  width: 100%;
+  height: 300px;
+}
+.container footer {
+  height: 50px;
+}
+.fileupdate {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #325fff;
+  border-radius: 4px;
+}
+.a-upload {
+  padding: 4px 10px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  color: #888;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1
+}
+.a-upload  input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer
+}
+.a-upload:hover {
+  color: #444;
+  background: #eee;
+  border-color: #ccc;
+  text-decoration: none
+}
+/*样式2*/
+.file {
+  margin-top: 5px;
+  margin-right: 50px;
+  position: relative;
+  display: inline-block;
+  background: #AADFFD;
+  border: 1px solid #99D3F5;
+  border-radius: 4px;
+  padding: 7px 20px;
+  overflow: hidden;
+  color: #1E88C7;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 20px;
+}
+.file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.file:hover {
+  background: #AADFFD;
+  border-color: #78C3F3;
+  color: #004974;
+  text-decoration: none;
+}
+.ipfsButton{
+  margin-bottom: 20px;
+  margin-left: 1000px;
+}
+.imagesize{
+  height: 200px;
+  width: 200px;
+}
+
+.box{
+  width: 320px;
+  height: 100px;
+  border-bottom: 2px solid #4c4c4c;
+  border-top: 3px solid #00b9b7;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.box div{
+
+}
+span{
+  display: block;
+}
+.left_top{
+  flex: 1.5;
+  border-left: 2px solid #00b9b7;
+  height: 66px;
+  margin-bottom: 1px;
+}
+.left_bottom{
+  flex: 1;
+  border-left: 2px solid #4c4c4c;
+  height: 33px;
+}
+.txt{
+  width: 292px;
+}
+.right_top{
+  flex: 1;
+  border-left: 2px solid #00b9b7;
+  height: 33px;
+  margin-bottom: 1px;
+}
+.right_bottom{
+  flex: 1.5;
+  border-left: 2px solid #4c4c4c;
+  height: 66px;
+}
